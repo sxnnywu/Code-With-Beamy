@@ -1,0 +1,24 @@
+﻿Chapter 1: Classes and Methods
+## In Java, a class houses a method, just as a car’s engineering drawings house the design of an accelerator pedal. In a class, you provide one or more methods that are designed to perform the class’s tasks.We use keywords to set the accessibility of classes, methods, and other members, such as public (accessible outside of the class), private (only accessible within the class), and protected (accessible to the classes in the same package and subclasses). A method can have a parameter list specifying the data it requires to perform its task. This is defined in a comma-separated list located in the parentheses that follow the class name. Each parameter must specify a data type and an identifier (name). This goes hand in hand with the argument; the value sent to the method call. The arguments in the method call must have the same data types as the corresponding parameters in the method’s declaration.
+## https://www.youtube.com/watch?v=-94U78VoufQ
+## Chapter 2: Intro to OOP
+## OOP stands for object oriented programming. Java is known as an object-oriented programming language, because we can use objects to create a virtual representation of a real-life object. We imitate and define its attributes and actions. This process involves a template class which acts as a blueprint for creating the object, and a test/application class where the object is actually called and used. When we make one individual creation of the object, we are making an instance of that object.
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 3: Fields
+## An object has attributes that are carried with the object as it’s used in a program. For example, a car has a colour, speed, number of doors, amount of gas, etc. These attributes are defined in the template class as fields. Fields, instance variables, or global variables are variables that can be accessed throughout the class, in any method. They are private, and come first in any template class of an object.
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 4: The Constructor 
+## Java requires a constructor method for every object that is created. This public method comes right after we define the fields, and has the same name as the class. It allows you to build the object. The keyword new uses system memory to store an object, then calls the constructor to initialize the object. The constructor is called only once for every instance created. 
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 5: Getters + Setters
+## Following the constructor is our get and set methods, or our getters and setters. These public methods come in pairs - each field contains one getter and one setter. The setter (aka. setter, mutator, modifier method) is a public method allowing the client to assign values to private instance variables. By convention, method names begin with “set” followed by the variable name with the first letter capitalized. The getter (aka. getter, accessor methods) is a public method allowing the client to obtain values of private instance variables. By convention, method names begin with get followed by the variable name with the first letter capitalized
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 6: toString Methods
+## To represent any object as a string, we can use the toString() method. The toString() method is public and returns the String representation of the object. Now, if you print the object, the Java compiler internally invokes the toString() method on the object. By overriding the toString() method of the object class, we can return values of the object, so we don't need to write much code when testing or debugging.
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 7: Utility Methods
+## If we want the object to have the ability to perform an action, we define this action in a category of public methods known as utility methods. These perform actions like data manipulation, formatting, and conversions. Using utility methods helps keep your code clean and organized. 
+## https://www.youtube.com/watch?v=CWYv7xlKydw
+## Chapter 8: UML Diagrams
+## UML stands for Unified/Universal Modelling Language. These diagrams describe the structure of an object. Programmers around the world can understand this diagram despite language barriers. Separated by rows, we display the object name, fields, and methods. We use a minus sign to represent private access and a plug sign to represent public access.
+## https://www.youtube.com/watch?v=ksvwF2sUjHM

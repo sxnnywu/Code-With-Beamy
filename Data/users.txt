@@ -1,0 +1,12 @@
+test1first, test1last, test1user, test1password, 1, 0.0, -1
+test2first, test2last, test2user, test2password, 1, 0.0, -1
+test3first, test3last, test3user, 1234, 1, 41.0, -1
+test4first, test4last, test4user, 1234, 1, 0.0, -1
+test5first, test5last, test5user, 1234, 1, 39.0, -1
+test6first, test6last, test6user, 1234, 1, 0.0, -1
+peter, wu, pwu, pwu123, 8, 34.0, 0
+jennifer, zhang, jennifer, 0618, 8, 39.0, -1
+Aishwarya, Tandon, aishu, aishu, 8, 153.0, 0
+aishu, tandon, aishu, aishu, 1, 0.0, -1
+test, test, test5user, 1234, 1, 0.0, -1
+test, test, test5user, 1234, 1, 0.0, -1
